@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="0" failures="0" name="com.naruto.annotation.test.Test" time="0.003" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/aa/Documents/workspace/Naruto"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="basedir" value="/Users/aa/Documents/workspace/Naruto"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="surefire.real.class.path" value="/Users/aa/Documents/workspace/Naruto/target/surefire/surefirebooter5136593734510389479.jar"/>
+    <property name="java.io.tmpdir" value="/var/folders/78/q5rmg1hj1cd8_5_lntg4wlc40000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/aa/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="surefire.test.class.path" value="/Users/aa/Documents/workspace/Naruto/target/test-classes:/Users/aa/Documents/workspace/Naruto/target/classes:/Users/zhaochenxi/.m2/repository/c3p0/c3p0/0.9.1.2/c3p0-0.9.1.2.jar:/Users/zhaochenxi/.m2/repository/org/eclipse/jetty/jetty-server/8.1.18.v20150929/jetty-server-8.1.18.v20150929.jar:/Users/zhaochenxi/.m2/repository/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar:/Users/zhaochenxi/.m2/repository/org/eclipse/jetty/jetty-continuation/8.1.18.v20150929/jetty-continuation-8.1.18.v20150929.jar:/Users/zhaochenxi/.m2/repository/org/eclipse/jetty/jetty-http/8.1.18.v20150929/jetty-http-8.1.18.v20150929.jar:/Users/zhaochenxi/.m2/repository/org/eclipse/jetty/jetty-io/8.1.18.v20150929/jetty-io-8.1.18.v20150929.jar:/Users/zhaochenxi/.m2/repository/org/eclipse/jetty/jetty-util/8.1.18.v20150929/jetty-util-8.1.18.v20150929.jar:/Users/zhaochenxi/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/zhaochenxi/.m2/repository/mysql/mysql-connector-java/5.1.20/mysql-connector-java-5.1.20.jar:/Users/zhaochenxi/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/zhaochenxi/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/zhaochenxi/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/zhaochenxi/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/zhaochenxi/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:/Users/zhaochenxi/.m2/repository/com/rabbitmq/amqp-client/3.6.5/amqp-client-3.6.5.jar:/Users/zhaochenxi/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/zhaochenxi/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/zhaochenxi/.m2/repository/com/alibaba/fastjson/1.2.21/fastjson-1.2.21.jar:/Users/zhaochenxi/.m2/repository/com/sun/mail/javax.mail/1.5.6/javax.mail-1.5.6.jar:/Users/zhaochenxi/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/zhaochenxi/.m2/repository/org/apache/kafka/kafka_2.9.2/0.8.2.1/kafka_2.9.2-0.8.2.1.jar:/Users/zhaochenxi/.m2/repository/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2.jar:/Users/zhaochenxi/.m2/repository/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.jar:/Users/zhaochenxi/.m2/repository/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar:/Users/zhaochenxi/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar:/Users/zhaochenxi/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/zhaochenxi/.m2/repository/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar:/Users/zhaochenxi/.m2/repository/net/sf/jopt-simple/jopt-simple/3.2/jopt-simple-3.2.jar:/Users/zhaochenxi/.m2/repository/com/101tec/zkclient/0.3/zkclient-0.3.jar:/Users/zhaochenxi/.m2/repository/org/apache/kafka/kafka-clients/0.10.1.0/kafka-clients-0.10.1.0.jar:/Users/zhaochenxi/.m2/repository/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.jar:/Users/zhaochenxi/.m2/repository/org/xerial/snappy/snappy-java/1.1.2.6/snappy-java-1.1.2.6.jar:/Users/zhaochenxi/.m2/repository/org/slf4j/slf4j-log4j12/1.7.21/slf4j-log4j12-1.7.21.jar:/Users/zhaochenxi/.m2/repository/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.11.4"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/aa"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="zhaochenxi"/>
+    <property name="java.class.path" value="/Users/aa/Documents/workspace/Naruto/target/test-classes:/Users/aa/Documents/workspace/Naruto/target/classes:/Users/zhaochenxi/.m2/repository/c3p0/c3p0/0.9.1.2/c3p0-0.9.1.2.jar:/Users/zhaochenxi/.m2/repository/org/eclipse/jetty/jetty-server/8.1.18.v20150929/jetty-server-8.1.18.v20150929.jar:/Users/zhaochenxi/.m2/repository/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar:/Users/zhaochenxi/.m2/repository/org/eclipse/jetty/jetty-continuation/8.1.18.v20150929/jetty-continuation-8.1.18.v20150929.jar:/Users/zhaochenxi/.m2/repository/org/eclipse/jetty/jetty-http/8.1.18.v20150929/jetty-http-8.1.18.v20150929.jar:/Users/zhaochenxi/.m2/repository/org/eclipse/jetty/jetty-io/8.1.18.v20150929/jetty-io-8.1.18.v20150929.jar:/Users/zhaochenxi/.m2/repository/org/eclipse/jetty/jetty-util/8.1.18.v20150929/jetty-util-8.1.18.v20150929.jar:/Users/zhaochenxi/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/zhaochenxi/.m2/repository/mysql/mysql-connector-java/5.1.20/mysql-connector-java-5.1.20.jar:/Users/zhaochenxi/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/Users/zhaochenxi/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/Users/zhaochenxi/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/zhaochenxi/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/zhaochenxi/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:/Users/zhaochenxi/.m2/repository/com/rabbitmq/amqp-client/3.6.5/amqp-client-3.6.5.jar:/Users/zhaochenxi/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/zhaochenxi/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/zhaochenxi/.m2/repository/com/alibaba/fastjson/1.2.21/fastjson-1.2.21.jar:/Users/zhaochenxi/.m2/repository/com/sun/mail/javax.mail/1.5.6/javax.mail-1.5.6.jar:/Users/zhaochenxi/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/zhaochenxi/.m2/repository/org/apache/kafka/kafka_2.9.2/0.8.2.1/kafka_2.9.2-0.8.2.1.jar:/Users/zhaochenxi/.m2/repository/org/scala-lang/scala-library/2.9.2/scala-library-2.9.2.jar:/Users/zhaochenxi/.m2/repository/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.jar:/Users/zhaochenxi/.m2/repository/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar:/Users/zhaochenxi/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar:/Users/zhaochenxi/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/zhaochenxi/.m2/repository/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar:/Users/zhaochenxi/.m2/repository/net/sf/jopt-simple/jopt-simple/3.2/jopt-simple-3.2.jar:/Users/zhaochenxi/.m2/repository/com/101tec/zkclient/0.3/zkclient-0.3.jar:/Users/zhaochenxi/.m2/repository/org/apache/kafka/kafka-clients/0.10.1.0/kafka-clients-0.10.1.0.jar:/Users/zhaochenxi/.m2/repository/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.jar:/Users/zhaochenxi/.m2/repository/org/xerial/snappy/snappy-java/1.1.2.6/snappy-java-1.1.2.6.jar:/Users/zhaochenxi/.m2/repository/org/slf4j/slf4j-log4j12/1.7.21/slf4j-log4j12-1.7.21.jar:/Users/zhaochenxi/.m2/repository/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar:"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="/Users/aa/Documents/workspace/Naruto/target/surefire/surefirebooter5136593734510389479.jar /Users/aa/Documents/workspace/Naruto/target/surefire/surefire5964926196227954986tmp /Users/aa/Documents/workspace/Naruto/target/surefire/surefire5208447204804801851tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="java.ext.dirs" value="/Users/aa/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="/Users/zhaochenxi/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+</testsuite>
